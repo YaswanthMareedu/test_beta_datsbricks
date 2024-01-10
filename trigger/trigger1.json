@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copy_all_tables",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/bronze/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/2985786a-8fdd-4e50-85ca-ffc8047fe336/resourceGroups/rg-data-engineering-project/providers/Microsoft.Storage/storageAccounts/gen2multiverse",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

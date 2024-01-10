@@ -1,0 +1,13 @@
+{
+	"name": "SqlServereachtablecopy",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "onpremserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

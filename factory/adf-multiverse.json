@@ -1,0 +1,9 @@
+{
+	"name": "adf-multiverse",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "179c360e-68c3-4d73-bedd-25f1804aa90c",
+		"tenantId": "88d59d7d-aecb-41b2-90c5-55595de02536"
+	}
+}
